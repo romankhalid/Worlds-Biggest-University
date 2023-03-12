@@ -1,0 +1,53 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background: url(download.jpg);
+	background-size: cover;
+	font-family: century gothic;
+}
+
+.title{
+	margin-top: 100px;
+}
+
+.title h1{
+	font-size: 50px;
+	line-height: 10px;
+	color: #fff;
+}
+.title h2{
+	font-size: 20px;
+	color: #efefef;
+}
+form{
+	margin-top: 50px;
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+input{
+	height: 35px;
+}
+form .submit{
+	background-color: #ff5722;
+	background-color: transparent;
+	color: #000000;
+	font-size: 20px;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+	transition: 0.4 ease;
+}
+
+form .submit:hover{
+	background-color: #f44336;
+	cursor: pointer;
+}
